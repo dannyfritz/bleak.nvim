@@ -175,9 +175,9 @@ local theme = lush(function(injected_functions)
     Constant       { }, -- (*) Any constant
     String         { fg = accent2 }, --   A string constant: "this is a string"
     Character      { fg = accent2 }, --   A character constant: 'c', '\n'
-    Number         { }, --   A number constant: 234, 0xff
-    Boolean        { }, --   A boolean constant: TRUE, false
-    Float          { }, --   A floating point constant: 2.3e10
+    Number         { fg = accent2 }, --   A number constant: 234, 0xff
+    Boolean        { fg = accent2 }, --   A boolean constant: TRUE, false
+    Float          { fg = accent2 }, --   A floating point constant: 2.3e10
     Identifier     { }, -- (*) Any variable name
     Function       { }, --   Function name (also: methods for classes)
     Statement      { }, -- (*) Any statement
@@ -194,7 +194,7 @@ local theme = lush(function(injected_functions)
     PreCondit      { fg = accent3 }, --   Preprocessor #if, #else, #endif, etc.
     Type           { fg = accent1 }, -- (*) int, long, char, etc.
     StorageClass   { fg = accent3 }, --   static, register, volatile, etc.
-    Structure      { }, --   struct, union, enum, etc.
+    Structure      { fg = accent3 }, --   struct, union, enum, etc.
     Typedef        { }, --   A typedef
     Special        { }, -- (*) Any special symbol
     SpecialChar    { }, --   Special character in a constant
