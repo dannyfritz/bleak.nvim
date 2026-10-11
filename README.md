@@ -5,6 +5,6 @@
 
 A minimal colorscheme. Requires [lush](https://github.com/rktjmp/lush.nvim).
 
-[](./Screenshot-01.png)
-[](./Screenshot-02.png)
+![](./Screenshot-01.png)
+![](./Screenshot-02.png)
 
